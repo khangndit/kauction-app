@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# 1. Install dependency
+yarn install
+# 2. Start project
+yarn start
 
-1. yarn install
-2. yarn start
+# Link demo [kauction-app](https://khangndit.github.io/kauction-app/)
