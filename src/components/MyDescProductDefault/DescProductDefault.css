@@ -1,0 +1,18 @@
+.descdefault__wrapper {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  border-top: 1px solid var(--border-color);
+}
+
+.descdefault__title {
+  color: var(--blue);
+  font-weight: 500;
+  font-size: 16px;
+  margin: 10px 0 3px 0;
+}
+
+.descdefault__content {
+  font-size: 14px;
+  font-weight: 300;
+}

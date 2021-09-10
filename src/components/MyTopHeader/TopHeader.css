@@ -1,0 +1,24 @@
+.topheader__wrapper {
+  width: 100%;
+  height: 35px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.topheader {
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.topheader__item {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topheader__item-text {
+  color: var(--white);
+}

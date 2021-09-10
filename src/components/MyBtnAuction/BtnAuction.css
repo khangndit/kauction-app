@@ -1,0 +1,34 @@
+.auction__wrapper {
+  width: 100%;
+  height: 100px;
+}
+
+.auction__title {
+  font-size: 13px;
+  font-weight: 250;
+  margin-bottom: 5px;
+  padding: 0;
+}
+
+.auction__btn {
+  display: flex;
+}
+
+.acution__stepprice {
+  display: flex;
+  width: auto;
+}
+
+.price__input {
+  text-align: center;
+}
+
+.acution__stepprice input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.acution__stepprice input[type='number'] {
+  -moz-appearance: textfield;
+}

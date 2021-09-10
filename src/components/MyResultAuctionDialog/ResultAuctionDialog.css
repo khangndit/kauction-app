@@ -1,0 +1,23 @@
+.resultauction__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img__feel {
+  width: 120px;
+  height: 120px;
+}
+
+.resultauction__text {
+  margin-left: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--blue);
+  line-height: 25px;
+}
+
+.btn-result {
+  color: var(--blue);
+}

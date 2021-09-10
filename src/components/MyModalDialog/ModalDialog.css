@@ -1,0 +1,16 @@
+.modal__content {
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
+}
+
+.modal__title {
+  color: var(--blue);
+  margin: 0;
+}
+
+.modal__icon {
+  width: 100%;
+  text-align: center;
+  height: 40px;
+}

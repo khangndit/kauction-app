@@ -1,0 +1,10 @@
+.personwin__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.personwin__title {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--blue);
+}

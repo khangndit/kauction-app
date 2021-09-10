@@ -1,0 +1,18 @@
+.stepprice__wrapper {
+  display: flex;
+  width: auto;
+}
+
+.price__input {
+  text-align: center;
+}
+
+.stepprice__wrapper input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.stepprice__wrapper input[type='number'] {
+  -moz-appearance: textfield;
+}

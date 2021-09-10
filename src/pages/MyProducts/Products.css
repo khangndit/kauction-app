@@ -1,0 +1,21 @@
+.products__wrapper {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.products__title {
+  /* border-bottom: 1px solid var(--border-color); */
+  height: 20px;
+}
+
+.products__title-text {
+  color: var(--blue);
+  font-weight: 600;
+}
+
+.products__content {
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+}

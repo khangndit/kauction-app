@@ -1,0 +1,25 @@
+.descproduct__wrapper {
+  width: 100%;
+  height: auto;
+}
+
+.descproduct__title {
+  color: var(--blue);
+  font-weight: 500;
+  font-size: 16px;
+  margin: 0;
+}
+
+.descproduct__content ul {
+  margin: 0;
+  padding: 0;
+}
+
+.descproduct__content li {
+  margin-left: 17px;
+  margin-top: 1px;
+}
+
+.descproduct__content span {
+  font-size: 14px;
+}

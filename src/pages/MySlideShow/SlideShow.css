@@ -1,0 +1,28 @@
+.slideshow__wrapper {
+  margin-top: 20px;
+  width: 100%;
+  height: 220px;
+}
+
+.slideshow {
+  height: 220px;
+}
+
+.slideshow__img {
+  height: 220px;
+  width: 100%;
+  border-radius: 2px;
+}
+
+.slideshow__left {
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.slideshow__left-img {
+  width: 100%;
+  height: 105px;
+  border-radius: 2px;
+}

@@ -1,0 +1,29 @@
+.productdtl__wrapper {
+  width: 100%;
+  height: auto;
+}
+
+.productdtl {
+  margin-top: 20px;
+}
+
+.productdtl__title {
+  color: var(--blue);
+  font-weight: 600;
+}
+
+.productdtl__info {
+  margin-top: 15px;
+}
+
+.productdtl__info-title {
+  line-height: 35px;
+  color: var(--blue);
+  font-weight: 500;
+}
+
+.productdtl__countdown {
+  height: 35px;
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,14 @@
+.productdtltable__wrapper {
+  width: 100%;
+  height: auto;
+
+  margin-top: 20px;
+}
+
+.ant-pagination-item-active {
+  border-color: var(--blue) !important;
+}
+
+.ant-pagination-item-active a {
+  color: var(--blue) !important;
+}
