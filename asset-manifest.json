@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/kauction-app/static/css/main.7c1eb342.chunk.css",
+    "main.js": "/kauction-app/static/js/main.ca283aa6.chunk.js",
+    "main.js.map": "/kauction-app/static/js/main.ca283aa6.chunk.js.map",
+    "runtime-main.js": "/kauction-app/static/js/runtime-main.296f5088.js",
+    "runtime-main.js.map": "/kauction-app/static/js/runtime-main.296f5088.js.map",
+    "static/css/2.8fae8522.chunk.css": "/kauction-app/static/css/2.8fae8522.chunk.css",
+    "static/js/2.e30140d3.chunk.js": "/kauction-app/static/js/2.e30140d3.chunk.js",
+    "static/js/2.e30140d3.chunk.js.map": "/kauction-app/static/js/2.e30140d3.chunk.js.map",
+    "index.html": "/kauction-app/index.html",
+    "static/css/2.8fae8522.chunk.css.map": "/kauction-app/static/css/2.8fae8522.chunk.css.map",
+    "static/css/main.7c1eb342.chunk.css.map": "/kauction-app/static/css/main.7c1eb342.chunk.css.map",
+    "static/js/2.e30140d3.chunk.js.LICENSE.txt": "/kauction-app/static/js/2.e30140d3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.296f5088.js",
+    "static/css/2.8fae8522.chunk.css",
+    "static/js/2.e30140d3.chunk.js",
+    "static/css/main.7c1eb342.chunk.css",
+    "static/js/main.ca283aa6.chunk.js"
+  ]
+}
