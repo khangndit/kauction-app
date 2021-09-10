@@ -9,7 +9,7 @@ const ImgCarousel = ({ imgList }) => {
 
   useEffect(() => {
     const imageTmp = imgList.map((img) => ({
-      src: img,
+      src: 'http://khangndit.github.io/kauction-app/' + img,
     }));
     setImageList(imageTmp);
   }, []);

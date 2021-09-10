@@ -30,7 +30,7 @@ const Product = ({ product }) => {
         <div className="product__content">
           <img
             className="product__content-img pointer"
-            src={product.images[0]}
+            src={'http://khangndit.github.io/kauction-app/' + product.images[0]}
             alt="error"
             onClick={() => handleNavigate(product.id)}
           />

@@ -12,28 +12,28 @@ const SlideShow = () => {
               <div>
                 <img
                   className="slideshow__img pointer"
-                  src="/images/slideshow/slideshow1.png"
+                  src="http://khangndit.github.io/kauction-app/images/slideshow/slideshow1.png"
                   alt="error"
                 />
               </div>
               <div>
                 <img
                   className="slideshow__img pointer"
-                  src="/images/slideshow/slideshow2.png"
+                  src="http://khangndit.github.io/kauction-app/images/slideshow/slideshow2.png"
                   alt="error"
                 />
               </div>
               <div>
                 <img
                   className="slideshow__img pointer"
-                  src="/images/slideshow/slideshow3.png"
+                  src="http://khangndit.github.io/kauction-app/images/slideshow/slideshow3.png"
                   alt="error"
                 />
               </div>
               <div>
                 <img
                   className="slideshow__img pointer"
-                  src="/images/slideshow/slideshow4.png"
+                  src="http://khangndit.github.io/kauction-app/images/slideshow/slideshow4.png"
                   alt="error"
                 />
               </div>
@@ -43,12 +43,12 @@ const SlideShow = () => {
             <div className="slideshow__left">
               <img
                 className="slideshow__left-img pointer"
-                src="/images/slideshow/slideshow1.png"
+                src="http://khangndit.github.io/kauction-app/images/slideshow/slideshow1.png"
                 alt="error"
               />
               <img
                 className="slideshow__left-img pointer"
-                src="/images/slideshow/slideshow2.png"
+                src="http://khangndit.github.io/kauction-app/images/slideshow/slideshow2.png"
                 alt="error"
               />
             </div>

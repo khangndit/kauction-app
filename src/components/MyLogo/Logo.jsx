@@ -6,7 +6,11 @@ const Logo = () => {
   return (
     <Link to="/">
       <div className="logo__wrapper">
-        <img className="logo-img pointer" src="/logo.png" alt="error" />
+        <img
+          className="logo-img pointer"
+          src="http://khangndit.github.io/kauction-app/logo.png"
+          alt="error"
+        />
       </div>
     </Link>
   );
