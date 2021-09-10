@@ -34,7 +34,7 @@ const ResultAuctionDialog = ({
           <div className="resultauction__content">
             <img
               className="img__feel"
-              src="http://khangndit.github.io/kauction-app//images/smile.png"
+              src="http://khangndit.github.io/kauction-app/images/smile.png"
               alt="smile"
             />
             <span className="resultauction__text">
@@ -61,7 +61,7 @@ const ResultAuctionDialog = ({
           <div className="resultauction__content">
             <img
               className="img__feel"
-              src="http://khangndit.github.io/kauction-app//images/sad.png"
+              src="http://khangndit.github.io/kauction-app/images/sad.png"
               alt="smile"
             />
             <span className="resultauction__text">
