@@ -11,9 +11,7 @@ const Product = ({ product }) => {
   const history = useHistory();
 
   const handleNavigate = (id) => {
-    history.replace(
-      `https://khangndit.github.io/kauction-app/productDetail?id=${id}`
-    );
+    history.push(`/productDetail?id=${id}`);
   };
 
   return (

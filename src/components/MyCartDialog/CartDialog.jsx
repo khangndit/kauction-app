@@ -13,7 +13,10 @@ const CartDialog = ({ cartList }) => {
                   <div className="cartdialog__content-item">
                     <img
                       className="cartdialog__content-img"
-                      src={cart.images[0]}
+                      src={
+                        'https://khangndit.github.io/kauction-app/' +
+                        cart.images[0]
+                      }
                       alt="product"
                     />
                     <div className="cartdialog__content-left">

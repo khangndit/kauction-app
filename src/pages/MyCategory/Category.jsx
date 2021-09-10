@@ -25,7 +25,9 @@ const Category = () => {
           {categoryList.map((el) => {
             return (
               <span className="catergory__item" key={el}>
-                <NavLink to={`/productFind?category=${el}`}>{el}</NavLink>
+                <NavLink to={`/kauction-app/productFind?category=${el}`}>
+                  {el}
+                </NavLink>
               </span>
             );
           })}
