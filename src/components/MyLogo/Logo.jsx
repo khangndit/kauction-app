@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Logo = () => {
   return (
-    <Link to="/">
+    <Link to="/kauction-app">
       <div className="logo__wrapper">
         <img
           className="logo-img pointer"
