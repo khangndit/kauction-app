@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/kauction-app/static/css/main.7c1eb342.chunk.css",
-    "main.js": "/kauction-app/static/js/main.f1dc04a3.chunk.js",
-    "main.js.map": "/kauction-app/static/js/main.f1dc04a3.chunk.js.map",
+    "main.js": "/kauction-app/static/js/main.b3b93ff4.chunk.js",
+    "main.js.map": "/kauction-app/static/js/main.b3b93ff4.chunk.js.map",
     "runtime-main.js": "/kauction-app/static/js/runtime-main.296f5088.js",
     "runtime-main.js.map": "/kauction-app/static/js/runtime-main.296f5088.js.map",
     "static/css/2.8fae8522.chunk.css": "/kauction-app/static/css/2.8fae8522.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.8fae8522.chunk.css",
     "static/js/2.e30140d3.chunk.js",
     "static/css/main.7c1eb342.chunk.css",
-    "static/js/main.f1dc04a3.chunk.js"
+    "static/js/main.b3b93ff4.chunk.js"
   ]
 }
