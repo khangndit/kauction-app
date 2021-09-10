@@ -17,9 +17,19 @@ const App = () => {
         <Header />
         <Category />
         <Switch>
-          <Route path="/" exact component={Products} />
-          <Route path="/productFind" component={ProductsFind} />
-          <Route path="/productDetail" component={ProductDetail} />
+          <Route
+            path="http://khangndit.github.io/kauction-app/"
+            exact
+            component={Products}
+          />
+          <Route
+            path="http://khangndit.github.io/kauction-app/productFind"
+            component={ProductsFind}
+          />
+          <Route
+            path="http://khangndit.github.io/kauction-app/productDetail"
+            component={ProductDetail}
+          />
         </Switch>
         <Footer />
       </Router>
