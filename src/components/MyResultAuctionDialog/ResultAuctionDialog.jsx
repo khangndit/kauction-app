@@ -32,7 +32,11 @@ const ResultAuctionDialog = ({
           ]}
         >
           <div className="resultauction__content">
-            <img className="img__feel" src="/images/smile.png" alt="smile" />
+            <img
+              className="img__feel"
+              src="http://khangndit.github.io/kauction-app//images/smile.png"
+              alt="smile"
+            />
             <span className="resultauction__text">
               Xin chúc mừng {user}, bạn đã chiến thắng trong phiên đấu giá vừa
               rồi!
@@ -55,7 +59,11 @@ const ResultAuctionDialog = ({
           ]}
         >
           <div className="resultauction__content">
-            <img className="img__feel" src="/images/sad.png" alt="smile" />
+            <img
+              className="img__feel"
+              src="http://khangndit.github.io/kauction-app//images/sad.png"
+              alt="smile"
+            />
             <span className="resultauction__text">
               {user} ơi, bạn đã thua. Hãy tiếp tục trong phiên đấu giá tiếp
               theo!
