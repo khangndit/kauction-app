@@ -27,7 +27,7 @@ const Products = () => {
   return (
     <>
       <SlideShow />
-      <div className="products__wrapper">
+      <div className="products__wrapper container">
         <div className="container products">
           <div className="products__title">
             <h3 className="products__title-text">ĐẤU GIÁ NHIỀU NHẤT</h3>

@@ -94,7 +94,7 @@ const ProductDetail = ({ location }) => {
   };
 
   return (
-    <div className="productdtl__wrapper">
+    <div className="productdtl__wrapper container">
       {productDtl ? (
         <div className="container productdtl">
           <h3 className="productdtl__title">ĐẤU GIÁ</h3>

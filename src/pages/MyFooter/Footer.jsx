@@ -4,7 +4,7 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <footer className="footer__wrapper">
+    <footer className="footer__wrapper container">
       <div className="container">
         <Row>
           <Col span={6}>
