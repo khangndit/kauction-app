@@ -51,11 +51,11 @@ const CountDown = ({ size, productDtl }) => {
       const userWin = productDtl.historyAuction[0].name;
       if (username === userWin) {
         setIsWin(true);
+        addCart();
       } else {
         setIsWin(false);
       }
       showModal();
-      addCart();
     }
 
     timeOut = setTimeout(() => {
