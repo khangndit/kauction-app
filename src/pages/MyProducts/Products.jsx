@@ -8,6 +8,7 @@ import {
   cleanUpSocketProducts,
   subscribeProductsCurrent,
 } from '../../shared/socket/socketService';
+import { ShimmerSimpleGallery } from 'react-shimmer-effects';
 
 const Products = () => {
   const [productList, setProductList] = useState([]);
@@ -17,6 +18,7 @@ const Products = () => {
     subscribeProductsCurrent(socket, (data) => {
       setProductList(data);
     });
+    window.scrollTo(0, 0);
     return () => {
       cleanUpSocketProducts(socket);
     };
@@ -31,15 +33,25 @@ const Products = () => {
             <h3 className="products__title-text">ĐẤU GIÁ NHIỀU NHẤT</h3>
           </div>
           <div className="products__content">
-            <Row gutter={[12, 20]}>
-              {productList.map((el) => {
-                return (
-                  <Col span={4} key={el.id}>
-                    <Product product={el} />
-                  </Col>
-                );
-              })}
-            </Row>
+            {productList.length > 0 ? (
+              <Row gutter={[12, 20]}>
+                {productList.map((el) => {
+                  return (
+                    <Col span={4} key={el.id}>
+                      <Product product={el} />
+                    </Col>
+                  );
+                })}
+              </Row>
+            ) : (
+              <ShimmerSimpleGallery
+                card
+                imageHeight={220}
+                caption
+                col={4}
+                row={2}
+              />
+            )}
           </div>
         </div>
       </div>

@@ -18,6 +18,7 @@ import {
   subscribeProductRoomOnly,
 } from '../../shared/socket/socketService';
 import './ProductDetail.css';
+import { ShimmerSimpleGallery } from 'react-shimmer-effects';
 
 const ProductDetail = ({ location }) => {
   const [productDtl, setProductDtl] = useState(null);
@@ -38,6 +39,7 @@ const ProductDetail = ({ location }) => {
       setProductDtl(data.product);
       openNotification(data);
     });
+    window.scrollTo(0, 0);
   }, [location]);
 
   useEffect(() => {
@@ -92,42 +94,44 @@ const ProductDetail = ({ location }) => {
   };
 
   return (
-    <>
+    <div className="productdtl__wrapper">
       {productDtl ? (
-        <div className="productdtl__wrapper">
-          <div className="container productdtl">
-            <h3 className="productdtl__title">ĐẤU GIÁ</h3>
-            <Row gutter={[20]}>
-              <Col span={12}>
-                <ImgCarousel imgList={productDtl.images} />
-              </Col>
-              <Col span={12}>
-                <div className="productdtl__info">
-                  <h1 className="productdtl__info-title text-2">
-                    {productDtl.title}
-                  </h1>
-                  <CountDown size="large" productDtl={productDtl} />
-                  <PCurrent productDtl={productDtl} />
-                  <ProductOption
-                    option={productDtl.options}
-                    handleChange={handleChangeOption}
-                  />
-                  <BtnAuction
-                    priceCurr={productDtl.priceCurrent}
-                    showModal={showModal}
-                  />
-                </div>
-              </Col>
-              <Col span={24}>
-                <ProductDtlTable data={productDtl.historyAuction} />
-              </Col>
-              <Col span={24}>
-                <MyDescProduct desc={productDtl.description} />
-              </Col>
-            </Row>
-          </div>
+        <div className="container productdtl">
+          <h3 className="productdtl__title">ĐẤU GIÁ</h3>
+          <Row gutter={[20]}>
+            <Col span={12}>
+              <ImgCarousel imgList={productDtl.images} />
+            </Col>
+            <Col span={12}>
+              <div className="productdtl__info">
+                <h1 className="productdtl__info-title text-2">
+                  {productDtl.title}
+                </h1>
+                <CountDown size="large" productDtl={productDtl} />
+                <PCurrent productDtl={productDtl} />
+                <ProductOption
+                  option={productDtl.options}
+                  handleChange={handleChangeOption}
+                />
+                <BtnAuction
+                  priceCurr={productDtl.priceCurrent}
+                  showModal={showModal}
+                />
+              </div>
+            </Col>
+            <Col span={24}>
+              <ProductDtlTable data={productDtl.historyAuction} />
+            </Col>
+            <Col span={24}>
+              <MyDescProduct desc={productDtl.description} />
+            </Col>
+          </Row>
         </div>
-      ) : null}
+      ) : (
+        <div className="productdtl__loading">
+          <ShimmerSimpleGallery col={2} row={1} card imageHeight={500} />
+        </div>
+      )}
       <ModalDialog
         isModalVisible={isModalVisible}
         handleOk={handleOk}
@@ -135,7 +139,7 @@ const ProductDetail = ({ location }) => {
         price={price}
         title="Xác nhận giá thầu"
       />
-    </>
+    </div>
   );
 };
 

@@ -27,3 +27,9 @@
   display: flex;
   align-items: center;
 }
+
+.productdtl__loading {
+  width: 1270px;
+  margin: auto;
+  margin-top: 20px;
+}
