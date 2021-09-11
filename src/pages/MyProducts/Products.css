@@ -1,4 +1,6 @@
 .products__wrapper {
+  width: 1270px;
+  margin: auto;
   height: auto;
   margin-top: 20px;
 }

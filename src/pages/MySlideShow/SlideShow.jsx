@@ -4,7 +4,7 @@ import { Carousel, Col, Row } from 'antd';
 
 const SlideShow = () => {
   return (
-    <div className="slideshow__wrapper container">
+    <div className="slideshow__wrapper">
       <div className="container slideshow">
         <Row gutter={12}>
           <Col span={16}>

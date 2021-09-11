@@ -19,7 +19,7 @@ const categoryList = [
 
 const Category = () => {
   return (
-    <div className="category__wrapper container">
+    <div className="category__wrapper">
       <div className="container">
         <div className="catergory">
           {categoryList.map((el) => {

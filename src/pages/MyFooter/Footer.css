@@ -1,4 +1,6 @@
 .footer__wrapper {
+  width: 1270px;
+  margin: auto;
   margin-top: 50px;
   border-top: 1px solid var(--border-color);
   height: 38vh;

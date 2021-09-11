@@ -40,7 +40,7 @@ const ProductsFind = ({ location }) => {
   }, [location]);
 
   return (
-    <div className="productsFind__wrapper container">
+    <div className="productsFind__wrapper">
       <div className="container productsFind">
         <div className="productsFind__title">
           <h3 className="productsFind__title-text">
